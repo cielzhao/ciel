@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>作品展示</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="page-opus">
+
+<!-- 顶部导航 -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">关于我</a></li>
+            <li><a href="note.html">学习笔记</a></li>
+            <li><a href="opus.html">作品展示</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- 主要内容 -->
+<div class="main">
+    <section class="col-md-12">
+        <article class="poem">
+            <blockquote>
+                <h3>如果有来生</h3>
+                <h4>三毛</h4>
+                <p>如果有来生，要做一棵树，<br /> 
+                  站成永恒。没有悲欢的姿势，<br /> 
+                  一半在尘土里安详，<br /> 
+                  一半在风里飞扬；<br /> 
+                  一半洒落荫凉，<br /> 
+                  一半沐浴阳光。<br /> 
+                  非常沉默、非常骄傲。<br /> 
+                  从不依靠、从不寻找。<br />
+                  如果有来生，要化成一阵风，<br />
+                  一瞬间也能成为永恒。<br />
+                  没有善感的情怀，没有多情的眼睛。<br />
+                  一半在雨里洒脱，<br />
+                  一半在春光里旅行；<br />
+                  寂寞了，孤自去远行，<br />
+                  把淡淡的思念统带走，<br />
+                  从不思念、从不爱恋；<br />
+                  如果有来生，要做一只鸟，<br />
+                  飞越永恒，没有迷途的苦恼。<br />
+                  东方有火红的希望，<br />
+                  南方有温暖的巢床，<br />
+                  向西逐退残阳，向北唤醒芬芳。<br />
+                  如果有来生，<br />
+                  希望每次相遇，<br />
+                  都能化为永恒。
+                </p>
+            </blockquote>
+        </article>
+    </section>
+</div>
+
+<footer>
+    <p class="pull-right"><a href="#top">回到顶部</a></p>
+
+    <p>Copyright © 2016 Ciel. All rights reserved.</p>
+</footer>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('#ad-carousel').carousel();
+        $('#menu-nav .navbar-collapse a').click(function (e) {
+            var href = $(this).attr('href');
+            var tabId = $(this).attr('data-tab');
+            if ('#' !== href) {
+                e.preventDefault();
+                $(document).scrollTop($(href).offset().top - 70);
+                if (tabId) {
+                    $('#feature-tab a[href=#' + tabId + ']').tab('show');
+                }
+            }
+        });
+    });
+</script>
+ 
+</body>
+</html>
