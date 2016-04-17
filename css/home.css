@@ -319,10 +319,12 @@ p {
     padding-right: 0;
     border-bottom: 2px solid #eee;
 }
-.page-opus .poem{
+.page-opus .poem {
     text-align: center;
     padding-top: 50px;
     color: #eee;
-
+}
+.page-opus .poem blockquote{
+    border-left: 0;	
 }
 
