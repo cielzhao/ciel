@@ -1,0 +1,285 @@
+
+/* hero-1 */ 
+.carousel-inner .hero1{
+    background-image: url("../images/home/hero-slides/hero1_large.jpg");
+    background-size: 2500px 1390px;
+    width: 2500px;
+    height: 1390px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}   
+
+@media only screen and (max-width: 1068px){
+.carousel-inner .hero1{
+    background-image: url("../images/home/hero-slides/hero1_medium.jpg");
+    background-size: 1834px 1024px;
+    width: 1834px;
+    height: 1024px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 735px){
+.carousel-inner .hero1{
+    background-image: url("../images/home/hero-slides/hero1_small.jpg");
+    background-size: 958px 535px;
+    width: 958px;
+    height: 535px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+
+
+
+/* hero-2 */ 
+.summary .col-md-3 .promo2{
+background-image: url("../images/home/promos/saharadesert_large.jpg");
+background-size: 360px 200px;
+width: 360px;
+height: 200px;
+width: auto;
+background-position: center center;
+background-repeat: no-repeat;
+}   
+
+@media only screen and (max-width: 1068px){
+.summary .col-md-3 .promo2{
+    background-image: url("../images/home/promos/saharadesert_medium.jpg");
+    background-size: 640px 200px;
+    width: 640px;
+    height: 200px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 735px){
+.summary .col-md-3 .promo2{
+    background-image: url("../images/home/promos/saharadesert_small.jpg");
+    background-size: 736px 200px;
+    width: 736px;
+    height: 200px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+
+
+/* hero-3 */ 
+.summary .col-md-3 .promo3{
+background-image: url("../images/home/promos/aurora_large.jpg");
+background-size: 360px 200px;
+width: 360px;
+height: 200px;
+width: auto;
+background-position: center center;
+background-repeat: no-repeat;
+}   
+
+@media only screen and (max-width: 1068px){
+.summary .col-md-3 .promo3{
+    background-image: url("../images/home/promos/aurora_medium.jpg");
+    background-size: 640px 200px;
+    width: 640px;
+    height: 200px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 735px){
+.summary .col-md-3 .promo3{
+    background-image: url("../images/home/promos/aurora_small.jpg");
+    background-size: 736px 200px;
+    width: 736px;
+    height: 200px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+
+
+/* hero-4 */ 
+.summary .col-md-3 .promo4{
+background-image: url("../images/home/promos/genevalake_large.jpg");
+background-size: 360px 200px;
+width: 360px;
+height: 200px;
+width: auto;
+background-position: center center;
+background-repeat: no-repeat;
+}   
+
+@media only screen and (max-width: 1068px){
+.summary .col-md-3 .promo4{
+    background-image: url("../images/home/promos/genevalake_medium.jpg");
+    background-size: 640px 200px;
+    width: 640px;
+    height: 200px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 735px){
+.summary .col-md-3 .promo4{
+    background-image: url("../images/home/promos/genevalake_small.jpg");
+    background-size: 736px 200px;
+    width: 736px;
+    height: 200px;
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+}
+
+
+
+
+
+
+        /* promo-1 */ 
+        .summary .col-md-3 .promo1{
+            background-image: url("../images/home/promos/sunrise_large.jpg");
+            background-size: 360px 200px;
+            width: 360px;
+            height: 200px;
+            width: auto;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }   
+
+        @media only screen and (max-width: 1068px){
+            .summary .col-md-3 .promo1{
+                background-image: url("../images/home/promos/sunrise_medium.jpg");
+                background-size: 640px 200px;
+                width: 640px;
+                height: 200px;
+                width: auto;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+        @media only screen and (max-width: 735px){
+            .summary .col-md-3 .promo1{
+                background-image: url("../images/home/promos/sunrise_small.jpg");
+                background-size: 736px 200px;
+                width: 736px;
+                height: 200px;
+                width: auto;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+
+
+
+        /* promo-2 */ 
+        .summary .col-md-3 .promo2{
+            background-image: url("../images/home/promos/saharadesert_large.jpg");
+            background-size: 360px 200px;
+            width: 360px;
+            height: 200px;
+            width: auto;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }   
+
+        @media only screen and (max-width: 1068px){
+            .summary .col-md-3 .promo2{
+                background-image: url("../images/home/promos/saharadesert_medium.jpg");
+                background-size: 640px 200px;
+                width: 640px;
+                height: 200px;
+                width: auto;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+        @media only screen and (max-width: 735px){
+            .summary .col-md-3 .promo2{
+                background-image: url("../images/home/promos/saharadesert_small.jpg");
+                background-size: 736px 200px;
+                width: 736px;
+                height: 200px;
+                width: auto;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+
+
+        /* promo-3 */ 
+        .summary .col-md-3 .promo3{
+            background-image: url("../images/home/promos/aurora_large.jpg");
+            background-size: 360px 200px;
+            width: 360px;
+            height: 200px;
+            width: auto;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }   
+
+        @media only screen and (max-width: 1068px){
+            .summary .col-md-3 .promo3{
+                background-image: url("../images/home/promos/aurora_medium.jpg");
+                background-size: 640px 200px;
+                width: 640px;
+                height: 200px;
+                width: auto;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+        @media only screen and (max-width: 735px){
+            .summary .col-md-3 .promo3{
+                background-image: url("../images/home/promos/aurora_small.jpg");
+                background-size: 736px 200px;
+                width: 736px;
+                height: 200px;
+                width: auto;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+
+
+        /* promo-4 */ 
+        .summary .col-md-3 .promo4{
+            background-image: url("../images/home/promos/genevalake_large.jpg");
+            background-size: 360px 200px;
+            width: 360px;
+            height: 200px;
+            width: auto;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }   
+
+        @media only screen and (max-width: 1068px){
+            .summary .col-md-3 .promo4{
+                background-image: url("../images/home/promos/genevalake_medium.jpg");
+                background-size: 640px 200px;
+                width: 640px;
+                height: 200px;
+                width: auto;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+        @media only screen and (max-width: 735px){
+            .summary .col-md-3 .promo4{
+                background-image: url("../images/home/promos/genevalake_small.jpg");
+                background-size: 736px 200px;
+                width: 736px;
+                height: 200px;
+                width: auto;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
