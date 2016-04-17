@@ -71,7 +71,7 @@ p {
 }
 @media only screen and (max-width: 735px){
     .carousel-caption {
-        top: 80px;
+        top: 60px;
     }
 }
 .carousel-caption p {
