@@ -325,5 +325,5 @@ p {
     color: #eee;
 }
 .page-opus .poem blockquote {
-    padding-left: 0;
+    border-left: 0;
 }
