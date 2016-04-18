@@ -323,6 +323,7 @@ p {
     text-align: center;
     padding-top: 50px;
     color: #eee;
-
 }
-
+.page-opus .poem blockquote {
+    padding-left: 0;
+}
