@@ -222,7 +222,6 @@ p {
     color: #555;
 }
 
-
 .page-about .contact {
     width: 100%;
     height: auto;
@@ -233,80 +232,7 @@ p {
 .page-about .contact p {
     line-height: 30px;
 }
-/*----------------------------------------------------------------+
-                              学习笔记 
-+----------------------------------------------------------------*/
-.page-note .header {
-    background-color: #eee;
-    display: block;
-    height: 150px;
-    padding-top: 20px;
-}
-.page-note .header .left {
-    margin-top: 0;
-    display: block;
-    float: left;
-    margin-left: 50px;
-    position: relative;
-}
-.page-note ul.timeline {
-    list-style-type: none;
-    background: url("../images/note/version_line.png") repeat-y scroll 120px 0 transparent;
-    margin: 50px 0;
-    padding: 0;
-}
-.page-note ul.timeline li {
-    position: relative;
-    margin-bottom: 20px;
-}
-.page-note ul.timeline li .time {
-    position: absolute;
-    width: 90px;
-    text-align: right;
-    left: 0;
-    top: 10px;
-    color: #999;
-}
-.page-note ul.timeline li .title {
-    position: absolute;
-    width: 290px;
-    text-align: right;
-    left: -200px;
-    top: 30px;
-    font-size: 30px;
-    line-height: 50px;
-    color: #269396;
-    overflow: hidden;
-}
-.page-note ul.timeline li .number {
-    position: absolute;
-    background: url("../images/note/version_dot.png") no-repeat scroll 0 0 transparent;
-    width: 56px;
-    height: 56px;
-    left: 97px;
-    line-height: 56px;
-    text-align: center;
-    color: #fff;
-    font-size: 18px;
-}
-.page-note ul.timeline li.alt .number {
-    background-image: url("../images/note/version_dot_alt.png");
-}
-.page-note ul.timeline li .content {
-    margin-left: 180px;
-    
-}
-.page-note ul.timeline li .content pre {
-    background-color: #269396;
-    padding: 20px;
-    color: #fff;
-    font-size: 13px;
-    line-height: 20px;
-}
-.page-note ul.timeline li.alt .content pre {
-    background-color: #43B1F1;
-}
-        
+
 
 /*----------------------------------------------------------------+
                               作品展示 
@@ -327,4 +253,3 @@ p {
 .page-opus .poem blockquote {
     border-left: 0;	
 }
-
