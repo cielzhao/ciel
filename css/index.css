@@ -363,7 +363,7 @@
 .hero-content{
   position: absolute;
   text-align: center;
-  min-width: 360px;
+  min-width: 300px;
   left: 50%;
   top: 50%;
   padding: 65px;
