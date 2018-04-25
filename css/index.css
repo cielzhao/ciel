@@ -1,73 +1,4 @@
-.header {
-	background-color: #fff;
-}
-.navbar {
-	margin-bottom: 0;
-	min-height: 80px;
-}
-
-.navbar-inverse {
-	background-color: #fff;
-	border-color: #fff;
-}
-
-.navbar-brand {
-	color: #333;
-	padding-top: 30px;
-	padding-left: 120px;
-	width: 200px;
-	font-size: 30px;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-	color: #333;
-	font-size: 18px;
-}
-.navbar-inverse .navbar-nav>li>a.current,
-.navbar-inverse .navbar-nav>li>a.current:hover {
-	color: #25b9f5;
-}
-
-.nav>li>a {
-	padding: 30px 30px 10px 30px;
-}
-
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-nav>li>a:hover {
-	color: #333;
-}
-
-.navbar-nav>li>a>span:first-child {
-	z-index: 2;
-	display: block;
-}
-
-.navbar-nav>li>a>span:last-child {
-	z-index: 1;
-	display: block;
-	color: #999;
-	font: 12px Georgia, serif;
-	opacity: 0;
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
-	transition: transform 0.3s, opacity 0.3s;
-	-webkit-transform: translateY(-100%);
-	-moz-transform: translateY(-100%);
-	transform: translateY(-100%);
-	text-align: center
-}
-
-.navbar-nav>li>a:hover>span:last-child,
-.navbar-nav>li>a:focus>span:last-child {
-	opacity: 1;
-	-webkit-transform: translateY(0%);
-	-moz-transform: translateY(0%);
-	transform: translateY(0%);
-}
-
-
 /*banner*/
-
 .bg {
 	position: absolute;
 	top: 0;
@@ -374,3 +305,5 @@
   transform: translateX(-50%) translateY(-50%);
 }
 .typed-cursor{ opacity: 0;}
+
+

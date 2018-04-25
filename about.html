@@ -1,113 +1,81 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>关于我</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于我</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<meta name="author" content="cielzhao">
+		<meta name="keywords" content="Ciel 的个人主页">
+		<meta name="description" content="Ciel 的个人主页">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/about.css">
+		<!--[if lt IE 9]>
+			<script src="js/plugin/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
 
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-</head>
+	<body>
+		<!--顶部导航-->
+		<header class="header"></header>
 
-<body class="page-about">
-<!-- 顶部导航 -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">切换导航</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Ciel</a>
-    </div>
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="myphoto">
+							<img class="img-responsive" src="images/about/img_bg_1.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<div id="owl-carousel" class="owl-carousel">
+							<div class="info info1">
+								<p>在平面设计中，网格是一种由一系列用于组织内容的相交的直线（垂直的、水平的）组成的结构（通常是二维的）。它广泛应用于打印设计中的设计布局和内容结构。在网页设计中，它是一种用于快速创建一致的布局和有效地使用 HTML 和 CSS 的方法</p>
+								<p>在平面设计中，网格是一种由一系列用于组织内容的相交的直线（垂直的、水平的）组成的结构（通常是二维的）。它广泛应用于打印设计中的设计布局和内容结构。在网页设计中，它是一种用于快速创建一致的布局和有效地使用 HTML 和 CSS 的方法</p>
+							</div>
+							<div class="info info2">
+								<p>在平面设计中，网格是一种由一系列用于组织内容的相交的直线（垂直的、水平的）组成的结构（通常是二维的）。它广泛应用于打印设计中的设计布局和内容结构。在网页设计中，它是一种用于快速创建一致的布局和有效地使用 HTML 和 CSS 的方法</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-            <li><a href="index.html">首页</a></li>
-            <li><a href="about.html">关于我</a></li>
-            <li><a href="note.html">学习笔记</a></li>
-            <li><a href="opus.html">作品展示</a></li>
-        </ul>
-    </div>
-</nav>
+		<!--版权信息-->
+		<footer class="footer"></footer>
 
-<!-- 主要内容 -->
-<div class="main">
-    <section class="col-md-12 basicifo">
-        <a href="https://github.com/cielzhao/">
-            <figure class="avatar">
-                <figcaption class="title">Ciel</figcaption>
-            </figure>
+		<!--Javascript-->
+		<script type="text/javascript" src="js/plugin/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="js/plugin/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/plugin/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/common/header.js"></script>
+		<script type="text/javascript" src="js/common/footer.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				//owl carousel
 
-        </a>
-        <article class="texts">
-            <h5> 姓名：赵丹　　 星座：巨蟹</h5>
-            <p>对 web 前端有着浓厚的兴趣，踏实，吃苦耐劳，适应能力强。待人友好，有强烈的责任心，注重团队合作与协调。能够独立解决遇到的问题，具有良好的编码习惯。乐观向上，能够不断学习和掌握新技术，并在实际工作中加及应用</p>
-        </article>
-    </section>
+			    $('#owl-carousel').owlCarousel({
+			      autoPlay: 3000, //Set AutoPlay to 3 seconds
+			      items : 1,
+			      itemsDesktop : [1199,1],
+			      itemsDesktopSmall : [979,1],
+			      itemsTablet : [768,1],
+			      itemsMobile : [479,1],
+			      autoPlay : false,
 
-    
-    <section class="col-md-12 skill">
-        <ul id="myTab" class="nav nav-tabs">
-            <li class="active">
-                <a href="#home" data-toggle="tab">
-                    个人技能
-                </a>
-            </li>
-            <li><a href="#ios" data-toggle="tab">工作经验</a></li>
-            <li><a href="#edu" data-toggle="tab">教育背景</a></li>
-        </ul>
-        <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade in active" id="home">
-                <p>1.熟练使用Dreamweaver、Photoshop、Flash、Fireworks</p>
-                <p>2.熟悉建站流程，熟练掌握Html、CSS、JavaScript</p>
-                <p>3.熟悉Web标准，能用DIV+CSS页面布局，制作与主流浏览器兼容的的网页，熟悉Html5+CSS3标准布局</p>
-                <p>4.了解PHP和Oracle、MySQL数据库相关知识</p>
-            </div>
-            <div class="tab-pane fade" id="ios">
-                <p>1.2014/07——2014/12</p> 
-                <p>天水世坤广告传媒，负责前台网页的设计与制作</p>
-                <p>2.2013/07——2014/05</p>
-                <p>兰州商源网络软件，行政文员，期间自学前端技术</p> 
-                <p>3.2012/09——2012/11</p>
-                <p>参加学校教育实习，讲授计算机基础课程</p>
-           </div>
-           <div class="tab-pane fade" id="edu">
-                <p>时间：2009.09——2013.06</p>
-                <p>学校：西北师范大学</p>
-                <p>专业：计算机科学与技术</p>  
-                <p>学历：本科</p>
-                <p>主修课程：C语言、数据结构、Web标准设计、动态网站开发、计算机网络、脚本语言编程、网页设计与网站建设</p>
-           </div>
-        </div>
-    </section>
+			      // CSS Styles
+			      baseClass : "owl-carousel",
+			      theme : "owl-theme"
+			    });
+			});
+		</script>
+	</body>
 
-    <section class="col-md-12 contact">
-        <article class="col-md-6"> 
-            <h4>基本信息</h4>
-            <p>姓名：赵丹<br />出生日期：1991.06.27<br />性别：女<br />地址：北京丰台<br />求职意向：Web前端 / HTML5</p>
-        </article>
-
-        <article class="col-md-6"> 
-            <h4>与我联系</h4>
-            <p>电话：18810312256<br />邮箱：18810312256@163.com<br />微信：zd1991<br />Q  Q：1425066368<br />地址：甘肃省天水市</p>
-        </article>
-    </section> 
-</div>
-
-<footer>
-    <p class="pull-right"><a href="#top">回到顶部</a></p>
-
-    <p>Copyright © 2016 Ciel. All rights reserved.</p>
-</footer>
-   
-</body>
 </html>
