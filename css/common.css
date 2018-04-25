@@ -67,12 +67,14 @@
 	-moz-transform: translateY(0%);
 	transform: translateY(0%);
 }
-
 .footer {
+	width: 100%;
+	color: #999;
+	text-align: center;
+}
+.page-home .footer {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	width: 100%;
 	color: #eee;
-	text-align: center;
 }
