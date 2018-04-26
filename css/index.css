@@ -5,6 +5,7 @@
 	left: 0;
 	z-index: -1;
 	background: url(../images/home/bg.jpg) top center;
+	background-size: cover;
 	width: 100%;
 	height: 100%;
 }
@@ -306,4 +307,8 @@
 }
 .typed-cursor{ opacity: 0;}
 
-
+@media screen and (max-width: 1366px) {
+	.bg {
+		background-position: 15% 70%;
+	}
+}

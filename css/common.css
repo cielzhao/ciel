@@ -1,45 +1,27 @@
 /*----------------------------------------------------------------+
                               公共样式
 +----------------------------------------------------------------*/
-.header {
-	background-color: #fff;
-}
 .navbar {
 	margin-bottom: 0;
 	min-height: 80px;
 }
 
-.navbar-inverse {
-	background-color: #fff;
-	border-color: #fff;
-}
-
 .navbar-brand {
-	color: #333;
 	padding-top: 30px;
 	padding-left: 120px;
 	width: 200px;
 	font-size: 30px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-	color: #333;
-	font-size: 18px;
-}
-.navbar-inverse .navbar-nav>li>a.current,
-.navbar-inverse .navbar-nav>li>a.current:hover {
+.navbar-nav>li>a.current,
+.navbar-nav>li>a.current:hover {
 	color: #25b9f5;
 }
 
 .nav>li>a {
 	padding: 30px 30px 10px 30px;
+	font-size: 16px;
 }
-
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-nav>li>a:hover {
-	color: #333;
-}
-
 .navbar-nav>li>a>span:first-child {
 	z-index: 2;
 	display: block;
@@ -72,9 +54,36 @@
 	color: #999;
 	text-align: center;
 }
-.page-home .footer {
+.page-home .footer,
+.page-about .footer {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	color: #eee;
+	z-index: 1030;
+	color: #ccc;
 }
+
+@media only screen and (max-width: 767px) {
+	.navbar {
+		min-height: 40px;
+	}
+	.navbar-brand {
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+	.navbar-nav {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.nav>li {
+		padding-left: 10px;
+		border-bottom: 1px solid #e2e2e2;
+	}
+	.nav>li>a {
+		padding: 10px;
+	}
+	.navbar-nav>li>a>span.en {
+		display: none;
+	}
+}
+

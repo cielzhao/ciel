@@ -1,6 +1,6 @@
 let header =
-`<div class="container">
-	<nav class="navbar navbar-inverse" role="navigation">
+`<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
 	    <div class="navbar-header">
 	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 	            <span class="sr-only">切换导航</span>
@@ -45,5 +45,5 @@ let header =
 	            </li>
 	        </ul>
 	    </div>
-	</nav>
-</div>`;
+	</div>
+</nav>`;

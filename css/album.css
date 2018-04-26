@@ -975,20 +975,13 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .row-bottom-padded-md {
+	padding-top: 4em;
   padding-bottom: 4em;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
     padding-bottom: 1em;
-  }
-}
-
-.row-bottom-padded-sm {
-  padding-bottom: 1em;
-}
-@media screen and (max-width: 768px) {
-  .row-bottom-padded-sm {
-    padding-bottom: 1em;
+    padding-top: 2em;
   }
 }
 
