@@ -32,11 +32,11 @@
 }
 
 .texts p:nth-child(1) {
-	-webkit-animation: animations 3s ease-out 1s backwards;
-	-moz-animation: animations 3s ease-out 1s backwards;
-	-o-animation: animations 3s ease-out 1s backwards;
-	-ms-animation: animations 3s ease-out 1s backwards;
-	animation: animations 3s ease-out 1s backwards;
+	-webkit-animation: animations 2s ease-out 1s backwards;
+	-moz-animation: animations 2s ease-out 1s backwards;
+	-o-animation: animations 2s ease-out 1s backwards;
+	-ms-animation: animations 2s ease-out 1s backwards;
+	animation: animations 2s ease-out 1s backwards;
 }
 
 .texts p:nth-child(2) {
@@ -308,12 +308,14 @@
 .typed-cursor{ opacity: 0;}
 @media screen and (max-width: 767px) {
 	.texts {
-	    width: 330px;
+	    margin-top: 100px;
 	    margin-left: -90px;
+	    width: 330px;
 	}
 }
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1024px) {
 	.bg {
-		background-position: 15% 70%;
+		background: url(../images/home/bg_sm.jpg) top center;
+		background-size: cover;
 	}
 }
