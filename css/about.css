@@ -327,13 +327,16 @@ body {
 		margin-top: 0;
 		margin-left: 0;
 	}
-	.w-content tr {
-		height: 26px;
-	}
 	.skills .skills-list {
 		display: none;
 	}
 	.skillst {
 		padding: 0;
+	}
+	.myphoto {
+		width: 80%;
+	}
+	.ih-item {
+		display: none;
 	}
 }
