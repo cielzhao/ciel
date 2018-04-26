@@ -315,6 +315,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+	.swiper-container {
+		height: 94%;
+	}
 	.swiper-slide {
 		padding-top: 80px;
 	}
@@ -327,6 +330,9 @@ body {
 		margin-top: 0;
 		margin-left: 0;
 	}
+	.w-content tr {
+		height: 30px;
+	}
 	.skills .skills-list {
 		display: none;
 	}
@@ -334,9 +340,13 @@ body {
 		padding: 0;
 	}
 	.myphoto {
+		margin-bottom: 10px;
 		width: 80%;
 	}
 	.ih-item {
 		display: none;
+	}
+	.footer p {
+		margin-bottom: 5px;
 	}
 }
