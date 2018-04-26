@@ -3,7 +3,6 @@ body {
 	position: relative;
 	height: 100%;
 }
-
 .swiper-container {
 	width: 100%;
 	height: 100%;
@@ -25,6 +24,7 @@ body {
 	margin-top: -20px;
 	padding-right: 20px;
 	background: #f8f8f8;
+	font-weight: normal;
 }
 
 .myphoto {
@@ -265,10 +265,7 @@ body {
 	height: 5px;
 	width: 0px;
 	position: relative;
-}
-
-.skillst .count-bar {
-	background-color: #818181;
+	background-color: #ccc;
 }
 
 .skillst .count-bar span {
@@ -312,6 +309,11 @@ body {
 
 .skillst .count-bar .count span:after {
 	border-top: 4px solid #818181;
+}
+@media only screen and (max-width: 1366px) {
+	.swiper-slide {
+		padding-top: 140px;
+	}	
 }
 
 @media only screen and (max-width: 768px) {
