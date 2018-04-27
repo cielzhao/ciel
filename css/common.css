@@ -1,9 +1,16 @@
+a,a:focus, a:hover {
+	outline:none;
+}
+
 /*----------------------------------------------------------------+
                               公共样式
 +----------------------------------------------------------------*/
 .navbar {
 	margin-bottom: 0;
 	min-height: 80px;
+}
+.navbar-default {
+	background-color: #fff;
 }
 
 .navbar-brand {
@@ -12,7 +19,31 @@
 	width: 200px;
 	font-size: 30px;
 }
-
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+     border-color: #fff;
+}
+.open .icon-bar:nth-child(2) {
+	display: none;
+}
+.open .icon-bar:nth-child(3) {
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+}
+.open .icon-bar:nth-child(4) {
+	position: relative;
+	top: -6px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+}
 .navbar-nav>li>a.current,
 .navbar-nav>li>a.current:hover {
 	color: #25b9f5;

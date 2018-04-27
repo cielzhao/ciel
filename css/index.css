@@ -312,10 +312,16 @@
 	    margin-left: -90px;
 	    width: 330px;
 	}
+	h1 {
+		font-size: 14px;
+	}
 }
 @media screen and (max-width: 1024px) {
 	.bg {
 		background: url(../images/home/bg_sm.jpg) top center;
 		background-size: cover;
 	}
+}
+h1 {
+	font-size: 22px;
 }

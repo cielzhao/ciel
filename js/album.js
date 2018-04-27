@@ -2,8 +2,6 @@
 
 	'use strict';
 
-
-
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
@@ -39,7 +37,7 @@
 	// Document on load.
 	$(function(){
 		fullHeight();
-		contentWayPoint();
+
 	});
 
 

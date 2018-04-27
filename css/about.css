@@ -10,26 +10,24 @@ body {
 
 .swiper-slide {
 	padding-top: 200px;
-	background-color: #f8f8f8;
 }
 
 .subheader {
 	margin-bottom: 40px;
+	padding-bottom: 10px;
 	width: 100%;
-	background: url(../images/about/subheader_line.png) repeat-x;
-}
-
-.subheader-title {
-	display: inline-block;
-	margin-top: -20px;
-	padding-right: 20px;
-	background: #f8f8f8;
-	font-weight: normal;
+	border-bottom: 1px solid #ddd;
 }
 
 .myphoto {
 	margin-bottom: 20px;
-	opacity: .3;
+	opacity: .5;
+}
+.myphoto:hover {
+	opacity: 1;
+	-webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
 }
 
 .basicinfo {
@@ -37,45 +35,44 @@ body {
 	text-align: center;
 }
 
-.w-content {
+.table-info {
 	margin-top: 40px;
-	margin-left: 100px;
 }
 
-.w-content tr {
+.table-info tr {
 	height: 35px;
 }
 
-.w-content td {
+.table-info td {
 	padding-right: 15px;
 }
 
-.w-content td.break {
+.table-info td.break {
 	font-weight: bold;
 }
 
-.w-content .glyphicon {
+.table-info .glyphicon {
 	margin-right: 5px;
 }
 
 
-/*avatar*/
+/*---------------- avatar ----------------*/
 
-.ih-item.circle.effect {
+.avatar {
 	margin: 0 auto;
 	-webkit-perspective: 900px;
 	-moz-perspective: 900px;
 	perspective: 900px;
 }
 
-.ih-item.circle.effect .img {
+.avatar .img {
 	z-index: 11;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 }
 
-.ih-item.circle.effect .info {
+.avatar .info {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
@@ -83,7 +80,7 @@ body {
 	transform-style: preserve-3d;
 }
 
-.ih-item.circle.effect .info .info-back {
+.avatar .info .info-back {
 	opacity: 1;
 	border-radius: 50%;
 	width: 100%;
@@ -91,14 +88,14 @@ body {
 	background: #333;
 }
 
-.ih-item.circle.effect .info p {
+.avatar .info p {
 	padding-top: 45px;
 	padding-left: 0px;
 	font-size: 14px;
 	color: #fff;
 }
 
-.ih-item.circle.effect.bottom_to_top .img {
+.avatar.bottom-to-top .img {
 	-webkit-transform-origin: 50% 0;
 	-moz-transform-origin: 50% 0;
 	-ms-transform-origin: 50% 0;
@@ -106,7 +103,7 @@ body {
 	transform-origin: 50% 0;
 }
 
-.ih-item.circle.effect.bottom_to_top a:hover .img {
+.avatar.bottom-to-top a:hover .img {
 	-webkit-transform: rotate3d(1, 0, 0, 180deg);
 	-moz-transform: rotate3d(1, 0, 0, 180deg);
 	-ms-transform: rotate3d(1, 0, 0, 180deg);
@@ -114,7 +111,7 @@ body {
 	transform: rotate3d(1, 0, 0, 180deg);
 }
 
-.ih-item.circle.effect.top_to_bottom .img {
+.avatar.top-to-bottom .img {
 	-webkit-transform-origin: 50% 100%;
 	-moz-transform-origin: 50% 100%;
 	-ms-transform-origin: 50% 100%;
@@ -122,7 +119,7 @@ body {
 	transform-origin: 50% 100%;
 }
 
-.ih-item.circle.effect.top_to_bottom a:hover .img {
+.avatar.top-to-bottom a:hover .img {
 	-webkit-transform: rotate3d(1, 0, 0, -180deg);
 	-moz-transform: rotate3d(1, 0, 0, -180deg);
 	-ms-transform: rotate3d(1, 0, 0, -180deg);
@@ -130,7 +127,7 @@ body {
 	transform: rotate3d(1, 0, 0, -180deg);
 }
 
-.ih-item.circle.effect.left_to_right .img {
+.avatar.left-to-right .img {
 	-webkit-transform-origin: 100% 50%;
 	-moz-transform-origin: 100% 50%;
 	-ms-transform-origin: 100% 50%;
@@ -138,7 +135,7 @@ body {
 	transform-origin: 100% 50%;
 }
 
-.ih-item.circle.effect.left_to_right a:hover .img {
+.avatar.left-to-right a:hover .img {
 	-webkit-transform: rotate3d(0, 1, 0, 180deg);
 	-moz-transform: rotate3d(0, 1, 0, 180deg);
 	-ms-transform: rotate3d(0, 1, 0, 180deg);
@@ -146,7 +143,7 @@ body {
 	transform: rotate3d(0, 1, 0, 180deg);
 }
 
-.ih-item.circle.effect.right_to_left .img {
+.avatar.right-to-left .img {
 	-webkit-transform-origin: 0% 50%;
 	-moz-transform-origin: 0% 50%;
 	-ms-transform-origin: 0% 50%;
@@ -154,7 +151,7 @@ body {
 	transform-origin: 0% 50%;
 }
 
-.ih-item.circle.effect.right_to_left a:hover .img {
+.avatar.right-to-left a:hover .img {
 	-webkit-transform: rotate3d(0, 1, 0, -180deg);
 	-moz-transform: rotate3d(0, 1, 0, -180deg);
 	-ms-transform: rotate3d(0, 1, 0, -180deg);
@@ -162,34 +159,34 @@ body {
 	transform: rotate3d(0, 1, 0, -180deg);
 }
 
-.ih-item a {
+.avatar a {
 	color: #333;
 }
 
-.ih-item a:hover {
+.avatar a:hover {
 	text-decoration: none;
 }
 
-.ih-item img {
+.avatar img {
 	width: 100%;
 	height: 100%;
 }
 
-.ih-item.circle {
+.avatar {
 	position: relative;
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
 }
 
-.ih-item.circle .img {
+.avatar .img {
 	position: relative;
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
 }
 
-.ih-item.circle .img:before {
+.avatar .img:before {
 	position: absolute;
 	display: block;
 	content: '';
@@ -201,11 +198,11 @@ body {
 	transition: all 0.35s ease-in-out;
 }
 
-.ih-item.circle .img img {
+.avatar .img img {
 	border-radius: 50%;
 }
 
-.ih-item.circle .info {
+.avatar .info {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -216,33 +213,19 @@ body {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
-
-@media all and (max-width: 780px) {
-	.ih-item.circle .img {
-		position: relative;
-		width: 100px;
-		height: 100px;
-		/*margin-top: 20px;*/
-		border-radius: 50%;
-	}
-	.ih-item.circle {
-		position: relative;
-		width: 100px;
-		height: 100px;
-		border-radius: 50%;
-	}
-	.ih-item.circle .info .info-back h2 {
-		font-size: 0.9em;
-	}
+/*---------------- works ----------------*/
+.works-company {
+	margin-bottom: 30px;
+}
+.works-company p {
+	padding-left: 15px;
 }
 
 
-/*---------------- a. Skills ----------------*/
-.skills .col-md-4 {
-	padding-left: 0;
-}
+/*---------------- skills ----------------*/
 .skills-list li {
 	margin-bottom: 10px;
+	list-style-type: none;
 }
 
 .skillst {
@@ -253,7 +236,6 @@ body {
 .skillst .skillbar {
 	width: 100%;
 	height: 10px;
-	background-color: #f6f6f6;
 	position: relative;
 	margin-bottom: 60px;
 	padding: 2px;
@@ -312,27 +294,25 @@ body {
 }
 @media only screen and (max-width: 1366px) {
 	.swiper-slide {
-		padding-top: 140px;
-	}	
+		padding-top: 110px;
+	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	.swiper-container {
 		height: 94%;
 	}
 	.swiper-slide {
-		padding-top: 80px;
+		padding-top: 50px;
 	}
 	.subheader {
 		margin-bottom: 10px;
-		width: 100%;
-		background: url(../images/about/subheader_line.png) repeat-x;
+		font-size: 18px;
 	}
-	.w-content {
+	.table-info {
 		margin-top: 0;
-		margin-left: 0;
 	}
-	.w-content tr {
+	.table-info tr {
 		height: 30px;
 	}
 	.skills .skills-list {
@@ -345,10 +325,28 @@ body {
 		margin-bottom: 10px;
 		width: 80%;
 	}
-	.ih-item {
+	.avatar {
 		display: none;
 	}
 	.footer p {
 		margin-bottom: 5px;
 	}
+}
+
+.download-resume {
+	opacity: .8;
+	display: block;
+	width: 200px;
+	background-color: #25b9f5;
+    color: #fff;
+    border: 2px solid #25b9f5;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.download-resume:hover {
+	opacity: 1;
+	background-color: #25b9f5;
+	border: 2px solid #25b9f5;
 }
