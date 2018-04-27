@@ -88,7 +88,7 @@ a:hover, a:active, a:focus {
   line-height: auto;
 }
 .album-entry .desc h3 a {
-  color: #000;
+  color: #333;
   text-decoration: none;
 }
 .album-entry .desc span {
@@ -103,10 +103,9 @@ a:hover, a:active, a:focus {
   color: #e6e6e6;
 }
 .album-entry .desc .lead {
-  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #333;
+  color: #666;
 }
 .album-entry:hover .album-img img {
   -webkit-transform: scale(1);
