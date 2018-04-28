@@ -106,6 +106,7 @@ a:hover, a:active, a:focus {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #666;
+  font-size: 12px;
 }
 .album-entry:hover .album-img img {
   -webkit-transform: scale(1);

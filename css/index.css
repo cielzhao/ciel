@@ -290,6 +290,10 @@
 	display: block;
 	margin-top: 0;
 }
+h1 {
+	font-size: 22px;
+}
+
 
 
 .hero-content{
@@ -298,7 +302,8 @@
   min-width: 300px;
   left: 50%;
   top: 50%;
-  padding: 30px;
+  padding: 30px 10px;
+  height: 160px;
   background: rgba(255, 255, 255, 0.8);
   outline: 4px double #FFFFFF;
   outline-offset: 8px;
@@ -313,7 +318,7 @@
 	    width: 330px;
 	}
 	h1 {
-		font-size: 14px;
+		font-size: 16px;
 	}
 }
 @media screen and (max-width: 1024px) {
@@ -321,7 +326,4 @@
 		background: url(../images/home/bg_sm.jpg) top center;
 		background-size: cover;
 	}
-}
-h1 {
-	font-size: 22px;
 }
