@@ -4,6 +4,20 @@
 .row.portfolio-image {
 	padding-top: 40px;
 }
+::-webkit-selection {
+  color: #fff;
+  background: #25b9f5;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #25b9f5;
+}
+
+::selection {
+  color: #fff;
+  background: #25b9f5;
+}
 
 
 
@@ -78,6 +92,9 @@
 hr {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.desc {
+	color: #25b9f5;
 }
 
 @media screen and (max-width: 767px) {
