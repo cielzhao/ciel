@@ -8,6 +8,9 @@ function init() {
 	$('.header').html(header);
 	$('.footer').html(footer);
 	var currentClass = getPageName().split('.')[0];
+	if(!currentClass) {
+		currentClass = 'index'
+	}
 	$('.navbar-nav > li > a').removeClass('current');
 	$('.' + currentClass).addClass('current');
 }
